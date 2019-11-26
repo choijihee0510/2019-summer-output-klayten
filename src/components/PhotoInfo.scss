@@ -1,0 +1,20 @@
+.PhotoInfo__MediName,
+.PhotoInfo__Quantity {
+  width: 420px;
+  font-size: 14px;
+  @include breakWord();
+}
+
+.PhotoInfo__MediName {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.PhotoInfo__Quantity {
+  margin-bottom: 16px;
+}
+
+.PhotoInfo__Date {
+  font-size: 17px;
+  color: gray;
+}
